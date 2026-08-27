@@ -11,6 +11,7 @@ Feel free to explore the various sections and articles to enhance your understan
 ## Current Contents
 
 - [Exercise 01: Source Discovery](sources/exercise-01-source-discovery.md) - Preliminary collection of quality sources and discovery methods
+- [Assignment 01: Collection Plan + Initial Sources](sources/assignment-01-collection-plan.md) - Topic statement, organizational structure, annotated sources, and tool selection
 
 ## About This Project
 
