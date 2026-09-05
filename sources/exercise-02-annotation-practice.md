@@ -10,7 +10,7 @@ These six annotations practice the four-component structure for Project 01. Sour
 
 ### 1. Overview of the Invoicing Process
 **Creator:** ServiceTitan Help Center  
-**URL:** https://help.servicetitan.com/docs/overview-of-the-invoicing-process  
+**URL:** [https://help.servicetitan.com/docs/overview-of-the-invoicing-process](https://help.servicetitan.com/docs/overview-of-the-invoicing-process)  
 **Category:** Invoicing Workflows  
 **Tags:** Invoicing, Basic, Official Help Center, Bookkeeper, Office Manager, Financial Integrations Specialist
 
@@ -26,7 +26,7 @@ These six annotations practice the four-component structure for Project 01. Sour
 
 ### 2. Accounting Integrations Home
 **Creator:** ServiceTitan Help Center  
-**URL:** https://help.servicetitan.com/docs/accounting-integrations-overview  
+**URL:** [https://help.servicetitan.com/docs/accounting-integrations-overview](https://help.servicetitan.com/docs/accounting-integrations-overview)  
 **Category:** Accounting Integrations & Reconciliation  
 **Tags:** Accounting Integration, Intermediate, Official Help Center, Bookkeeper, Accountant, Financial Integrations Specialist
 
@@ -42,7 +42,7 @@ These six annotations practice the four-component structure for Project 01. Sour
 
 ### 3. Best Practices on Closing the Books with QuickBooks
 **Creator:** ServiceTitan Help Center  
-**URL:** https://help.servicetitan.com/docs/best-practice-on-closing-the-books-with-quickbooks  
+**URL:** [https://help.servicetitan.com/docs/best-practice-on-closing-the-books-with-quickbooks](https://help.servicetitan.com/docs/best-practice-on-closing-the-books-with-quickbooks)  
 **Category:** Financial Controls & Month-End Closing  
 **Tags:** Reconciliation, Financial Controls, Intermediate, Official Help Center, Bookkeeper, Accountant
 
@@ -58,7 +58,7 @@ These six annotations practice the four-component structure for Project 01. Sour
 
 ### 4. Inventory and Purchase Orders Home
 **Creator:** ServiceTitan Help Center  
-**URL:** https://help.servicetitan.com/docs/inventory-and-purchase-orders  
+**URL:** [https://help.servicetitan.com/docs/inventory-and-purchase-orders](https://help.servicetitan.com/docs/inventory-and-purchase-orders)  
 **Category:** Inventory Management & Procurement  
 **Tags:** Inventory Management, Intermediate, Official Help Center, Bookkeeper, Office Manager, Owner
 
@@ -74,7 +74,7 @@ These six annotations practice the four-component structure for Project 01. Sour
 
 ### 5. Web Connector Troubleshooting Guide
 **Creator:** ServiceTitan Help Center  
-**URL:** https://help.servicetitan.com/docs/web-connector-troubleshooting-guide  
+**URL:** [https://help.servicetitan.com/docs/web-connector-troubleshooting-guide](https://help.servicetitan.com/docs/web-connector-troubleshooting-guide)  
 **Category:** Basic Troubleshooting and FAQ's  
 **Tags:** Troubleshooting, Accounting Integration, Intermediate, Troubleshooting Guide, Bookkeeper, Financial Integrations Specialist
 
@@ -90,7 +90,7 @@ These six annotations practice the four-component structure for Project 01. Sour
 
 ### 6. ServiceTitan push into QBO – What issues have you seen?
 **Creator:** r/Bookkeeping community thread  
-**URL:** https://www.reddit.com/r/Bookkeeping/comments/1uqux5a/servicetitan_push_into_qbo_what_issues_have_you/  
+**URL:** [https://www.reddit.com/r/Bookkeeping/comments/1uqux5a/servicetitan_push_into_qbo_what_issues_have_you/](https://www.reddit.com/r/Bookkeeping/comments/1uqux5a/servicetitan_push_into_qbo_what_issues_have_you/)  
 **Category:** Accounting Integrations & Reconciliation  
 **Tags:** Accounting Integration, Troubleshooting, Intermediate, Community Forum, Bookkeeper, Accountant
 
