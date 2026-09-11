@@ -1,19 +1,26 @@
 # ServiceTitan Financial Knowledge Base
 
-Welcome to my ServiceTitan Financial Knowledge Base. Here you will find comprehensive information and resources related to financial management and troubleshooting within the ServiceTitan platform.
+This collection gathers workflows, reports, and troubleshooting pages for financial work inside ServiceTitan. It is compiled from public information for bookkeepers, office managers, accountants, owners, and support staff who need clean ledgers in trade service and construction shops, not a complete reference of the entire software.
 
-This knowledge base covers workflows and best practices relating to invoicing, payments, job costing, accounting integrations, and other financial processes within ServiceTitan. It is designed to help users efficiently manage their financial operations and resolve common issues encountered in the platform.
+I built it with my insight from the same problems I see as a Financial Integrations Specialist: invoices that never reach the accounting software, payments that do not match the bank, job costs that ignore parts, and financial discrepancies at period-end. The goal is a shorter path through official Help Center material, with enough outside input to show where the material is silent.
 
-Whether you are a new user looking to understand the basics or an experienced user seeking advanced troubleshooting tips, this knowledge base aims to provide valuable guidance for all levels of expertise.
+**In scope:** invoicing, payments and progress billing, job costing, accounting integrations (QuickBooks Desktop, QuickBooks Online, Sage Intacct), batching and export, month-end close, inventory and purchase orders, and common export errors.\
+**Out of scope:** dispatch, marketing, CRM, and other non-financial features. Internal-only support materials are also excluded for this public version.
 
-Feel free to explore the various sections and articles to enhance your understanding and proficiency in managing financial operations within ServiceTitan.
+Sources are grouped by process stage, in the order the work actually happens: invoice → payment → costing → export/reconcile → close, with inventory and troubleshooting alongside. Each source also carries tags for role, source type, and complexity so you can scan for “bookkeeper + troubleshooting” without reading every page. Start with the overview in a category, then use the paired troubleshooting pages when the happy path breaks.
+
+When grouped together, these sources are one chain, not sixteen separate features. A weak invoice becomes a bad batch, a bad batch becomes a broken QuickBooks file, and that break only becomes obvious at period close.
+
+## How to use this site
+
+- Open **[Project 01: Curated Collection](sources/project-01-collection.md)** for the full annotated set.
+- Browse by category headings, or use the tags under each source.
+- Course process files (discovery, plan, annotation practice) stay linked below as the working record, not as the collection itself.
 
 ## Current Contents
 
-- [Exercise 01: Source Discovery](sources/exercise-01-source-discovery.md) - Preliminary collection of quality sources and discovery methods
-- [Assignment 01: Collection Plan + Initial Sources](sources/assignment-01-collection-plan.md) - Topic statement, organizational structure, annotated sources, and tool selection
-- [Exercise 02: Annotation Practice](sources/exercise-02-annotation-practice.md) - Six structured annotations for Project 01
-
-## About This Project
-
-This site is being developed as part of my undergraduate degree curriculum in Computing Applications. It will grow over the semester into a fully organized and annotated collection, creating an original information product that can serve as a valuable reference for troubleshooting and understanding financial processes within ServiceTitan for both support professionals and the end users utilizing ServiceTitan on a daily basis.
+- [Project 01: Curated Collection](sources/project-01-collection.md) - 16 annotated sources grouped by financial process stage
+- [Exercise 01: Source Discovery](sources/exercise-01-source-discovery.md) - discovery methods and preliminary source list
+- [Assignment 01: Collection Plan + Initial Sources](sources/assignment-01-collection-plan.md) - topic, structure, first six sources, tool choice
+- [Exercise 02: Annotation Practice](sources/exercise-02-annotation-practice.md) - six practice annotations
+- [About](about.md)
