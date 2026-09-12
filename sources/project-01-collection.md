@@ -28,13 +28,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Invoicing Workflows  
 **Tags:** Invoicing, Basic, Official Help Center, Bookkeeper, Office Manager, Financial Integrations Specialist
 
-**What it covers:** Official walkthrough of the ServiceTitan invoicing lifecycle from a completed job to an invoice that can be batched, posted, and exported to the connected accounting system.
+**What it covers:** Official walkthrough of the ServiceTitan invoicing lifecycle: A completed job produces an invoice that can be reviewed, batched, posted, and exported to the connected accounting system. It names the stages later pages assume - especially batch, post, and export - without walking through every screen.
 
-**Why it's valuable:** It establishes the vocabulary the rest of the collection depends on. Payments, job costing, and month-end close only make sense if batch, post, and export are already clear.
+**Why it's valuable:** This is the vocabulary page for the whole collection. Payments, job costing, and month-end close only make sense if you already know that an invoice is not “in the books” until it has been exported. Without this model, troubleshooting pages look like a pile of unrelated errors.
 
-**Who would benefit:** New bookkeepers, office managers, and support staff who need the happy-path model before they troubleshoot a broken export.
+**Who would benefit:** New bookkeepers, office managers, and support staff should read this first. It is the happy-path map before anyone opens a red Web Connector or a QBO deposit mismatch.
 
-**Limitations:** High-level only. It does not cover refunds, progress-billing forms, or failed QuickBooks exports. Pair it with Payments Home and the batch/export pages when something leaves the happy path.
+**Limitations:** It is high-level on purpose. It does not cover refunds, applications for payment, inventory on the invoice, or failed exports. Pair it with "Understand invoice statuses" to see what Pending, Posted, and Exported actually lock, and with "Batch, post, and export transactions" when the invoice needs to leave ServiceTitan.
 
 ---
 
@@ -44,13 +44,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Invoicing Workflows  
 **Tags:** Invoicing, Basic, Official Help Center, Bookkeeper, Office Manager
 
-**What it covers:**  
+**What it covers:** Explains the status fields on a ServiceTitan invoice header: review, sent, paid, batch, export (Pending, Posted, Exported), and accounting period (Open or Closed). Pending invoices are fully editable. Posted invoices allow only limited detail changes unless the batch is unposted. Exported invoices cannot be edited; the documented fix is an adjustment invoice.
 
-**Why it's valuable:**  
+**Why it's valuable:** This page turns the invoicing overview into something you can use on a live record. When a tenant says “I cannot change the invoice,” the answer is usually the export status, not a missing permission. That distinction is what support and bookkeepers need at the same time.
 
-**Who would benefit:**  
+**Who would benefit:** Bookkeepers who batch daily, office staff who edit invoices after the job is done, and specialists diagnosing “why won’t this save.”
 
-**Limitations:**  
+**Limitations:** It does not list every posting error. Missing technicians, empty batches, and connector failures live on the troubleshooting pages. Period Closed also blocks edits even if the invoice is not exported. Pair this with "Batch, post, and export transactions" and with "Batch will not post or accept invoices."  
 
 ---
 
@@ -62,13 +62,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Payment Processing & Collections  
 **Tags:** Payment, Basic, Official Help Center, Bookkeeper, Office Manager
 
-**What it covers:**  
+**What it covers:** Hub for collecting and managing payments in ServiceTitan: Card, ACH, and check from the office or mobile; applying and unapplying credits; refunds and voids through the payment portals. It also points to setup for online payments, merchant portals, and the permissions required to create or apply a payment.
 
-**Why it's valuable:**  
+**Why it's valuable:** Invoicing without this page is only half the cash cycle. Deposits, credits, and refunds are what later show up as mismatches in QuickBooks. The hub is the official map of those workflows before you open a report or a forum thread.
 
-**Who would benefit:**  
+**Who would benefit:** Office staff who take payment, bookkeepers who apply credits, and owners who want technicians collecting in the field.
 
-**Limitations:**  
+**Limitations:** It is a landing page, not a refund procedure. Many refund and deposit details require extra configuration. Payments that have already been exported generally cannot be unapplied. Pair it with the invoicing overview on the way in and with the r/Bookkeeping QBO thread when deposits do not match the bank.  
 
 ---
 
@@ -78,13 +78,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Payment Processing & Collections  
 **Tags:** Invoicing, Payment, Intermediate, Official Help Center, Office Manager, Owner, Financial Integrations Specialist
 
-**What it covers:**  
+**What it covers:** Guides commercial and construction projects through AIA-style progress billing: An Application for Payment plus a Continuation Sheet (schedule of values) created together on the project. It covers work completed, stored materials, retainage percent, approval, and generating the progress invoice after the customer signs off.
 
-**Why it's valuable:**  
+**Why it's valuable:** Residential invoicing pages do not explain this workflow. Shops that bill by percent complete need this page or they invent a process that never exports cleanly. It is also the public explanation of retainage, which later appears in WIP and over/under billing.
 
-**Who would benefit:**  
+**Who would benefit:** Office managers, project admins, and bookkeepers on install or commercial work. Owners who review pay apps should know what the form is locking.
 
-**Limitations:**  
+**Limitations:** Account configuration is required. Retainage percent cannot be changed after the second AFP. Inventory-tracked item prices are restricted. If a progress invoice is generated too early, do not post or export it until the AFP is right. Pair with the WIP report and Financial Dashboard for the month-end view of the same projects.  
 
 ---
 
@@ -96,13 +96,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Job Costing & Profitability Analysis  
 **Tags:** Job Costing, Intermediate, Official Help Center, Bookkeeper, Accountant, Owner
 
-**What it covers:**  
+**What it covers:** Shows how to build job costing from the Jobs report template: Material, equipment, purchase order and bill costs, returns, payroll, performance pay, and labor burden, then compare total cost to revenue. Lines are jobs; cost columns drill into the POs or labor behind the number.
 
-**Why it's valuable:**  
+**Why it's valuable:** This is the official “is this job profitable” tool. Inventory and payroll only matter to the ledger if they land in these columns. Owners who only look at invoice total miss the cost side this report is built to show.
 
-**Who would benefit:**  
+**Who would benefit:** Accountants, bookkeepers, and owners reviewing completed work. Office managers who price the next job can use the same columns.
 
-**Limitations:**  
+**Limitations:** Payroll and labor burden need account setup; include both carelessly and you double-count. Invoice items not mapped to income GLs do not count as revenue, so margin looks wrong even when the invoice total is right. Pair with Inventory and Purchase Orders Home for the cost feed, and with Profit Protection when the numbers mean a pricebook change.  
 
 ---
 
@@ -112,13 +112,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Job Costing & Profitability Analysis  
 **Tags:** Job Costing, Intermediate, Company Website, Office Manager, Owner
 
-**What it covers:** Webinar recap on using job-costing reports, material-percentage-of-sales targets, and pricebook bulk edits to protect margins when costs move.
+**What it covers:** Webinar recap on protecting contractor margins in 2025: job-costing reports, material as a percent of sales, and bulk pricebook edits when material costs jump. It is written as owner advice, not as a field-by-field report guide.
 
-**Why it's valuable:** Connects official reports to an owner decision: change the pricebook or stop taking work that loses money.
+**Why it's valuable:** It connects the job costing report to a decision—raise prices, edit the pricebook, or stop selling work that loses money. Official report pages stop at columns. This page says what to do with the columns.
 
-**Who would benefit:** Owners and office managers who already have costing numbers and need to act on them.
+**Who would benefit:** Owners and office managers who already run costing and need to act. Bookkeepers can use it to explain why a margin target exists.
 
-**Limitations:** Tariff examples are tied to the 2025 webinar. The report and pricebook techniques still apply; the market story does not. This is marketing-adjacent, not a close procedure.
+**Limitations:** The tariff examples are time-stamped to that webinar. The report and pricebook habits remain useful; the market story does not. This is company marketing next to Help Center documentation, not a close checklist and not a substitute for the job costing report article. Read the report page first, then this.
 
 ---
 
@@ -130,13 +130,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Accounting Integrations & Reconciliation  
 **Tags:** Accounting Integration, Intermediate, Official Help Center, Bookkeeper, Accountant, Financial Integrations Specialist
 
-**What it covers:** Landing page for supported accounting connections: QuickBooks Desktop, QuickBooks Online, Sage Intacct, Xero, and CSV export. Each platform links out to its own setup guide.
+**What it covers:** Landing page for ServiceTitan accounting connections: QuickBooks Desktop, QuickBooks Online, Sage Intacct, Xero, and CSV export. Each product links to its own setup guide. It is the official list of what is supported.
 
-**Why it's valuable:** Authoritative starting point. It keeps tenants from following outdated third-party blogs when they only needed the current connector list.
+**Why it's valuable:** This is the first page a shop should open before buying a connector story from a blog or a reseller. QBD, QBO, and Intacct are not the same project. Starting here keeps people off leftover instructions for a product they do not run.
 
-**Who would benefit:** Office managers choosing an integration and specialists auditing whether a shop is on a supported path.
+**Who would benefit:** Office managers choosing an integration, bookkeepers auditing a live connection, and specialists checking supportability.
 
-**Limitations:** Overview, not a configuration manual. Web Connector crashes, QBO mapping errors, and Intacct specifics live on child pages. Use this to pick a path, then open the matching setup or troubleshooting article.
+**Limitations:** It will not configure a company file or clear an export error. Desktop Web Connector crashes, QBO Touchless mapping errors, and Intacct setup all live on child pages. Vendor bills and some payment types also do not export to QBO the same way they do to Desktop. Use this to pick a path, then open Batch, post, and export plus the matching troubleshooting page.
 
 ---
 
@@ -146,13 +146,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Accounting Integrations & Reconciliation  
 **Tags:** Accounting Integration, Intermediate, Official Help Center, Bookkeeper, Accountant, Financial Integrations Specialist
 
-**What it covers:**  
+**What it covers:** Step-by-step for the daily accounting move: Create a batch, review invoices and other transactions, post the batch, then export to QuickBooks or Intacct. Batches can include invoices, payments, vendor bills, inventory transfers, adjustments, and returns. Best practice is daily, with office staff building the batch and accounting posting it.
 
-**Why it's valuable:**  
+**Why it's valuable:** This is the hinge of the collection. Everything before it prepares a transaction; everything after it assumes the transaction already left ServiceTitan. Invoice statuses only make sense in light of this page.
 
-**Who would benefit:**  
+**Who would benefit:** Bookkeepers and accountants who export, and office staff who add invoices to a batch.
 
-**Limitations:**  
+**Limitations:** Invoices on unfinished jobs do not appear to batch. After export, the batch cannot be edited; use an adjustment invoice. Vendor bills and payment records do not export to QuickBooks Online the same way they do to Desktop. Pair with Understand invoice statuses on the way in and with the Web Connector or QBO Touchless error pages when export fails. Always verify the export in the target accounting system to catch discrepancies early.
 
 ---
 
