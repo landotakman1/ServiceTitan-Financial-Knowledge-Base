@@ -162,13 +162,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Accounting Integrations & Reconciliation  
 **Tags:** Accounting Integration, Troubleshooting, Intermediate, Community Forum, Bookkeeper, Accountant
 
-**What it covers:** Bookkeepers describing live QBO sync pain: deposits on a ServiceTitan report that never hit the bank, bank deposits missing from ServiceTitan, auto-batched payments, and refunds that do not export unless someone unposts and rebuilds the deposit.
+**What it covers:** Bookkeepers describing a live ServiceTitan-to-QBO integration: Deposits on a ServiceTitan report that never hit the bank, bank deposits missing from ServiceTitan, auto-batched payments, and refunds that do not travel with the deposit unless someone unposts and rebuilds it. Replies also stress that an exported batch cannot be edited in ServiceTitan.
 
-**Why it's valuable:** Names failure modes official docs understate, including that an exported batch cannot be edited in ServiceTitan. That is the counterweight to the clean integrations overview.
+**Why it's valuable:** Official docs describe the intended path. This thread names the path as tenants experience it during reconciliation. That contrast is why a community source belongs in a Help Center-heavy collection.
 
-**Who would benefit:** Bookkeepers mid-reconciliation and support staff who need the tenant’s language for “the books don’t match.”
+**Who would benefit:** Bookkeepers stuck mid-reconciliation and support staff who need the tenant's language for "the books don't match."
 
-**Limitations:** Unmoderated anecdotes, mixed expertise, no guaranteed steps. Treat it as a symptom list, then confirm against Help Center and the tenant’s export type (document vs journal entry).
+**Limitations:** Unmoderated anecdotes, mixed expertise, and no guaranteed steps. Advice may assume document export or Touchless without saying which. Treat it as a symptom list, then confirm against Help Center and the tenant's export type. Pair with "Payments Home" for refunds and deposits, and with "Resolve Touchless Integration export errors (QBO)" for the official fixes.
 
 ---
 
@@ -180,13 +180,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Financial Controls & Month-End Closing  
 **Tags:** Reconciliation, Financial Controls, Intermediate, Official Help Center, Bookkeeper, Accountant
 
-**What it covers:** Month-end sequence for tying ServiceTitan to QuickBooks: AR, AP, bank accounts, inventory, and setting a closing-date lock so posted periods stop changing.
+**What it covers:** Month-end checklist for tying ServiceTitan to QuickBooks: AR, AP, bank accounts, inventory, and a closing-date lock so posted periods stop changing. It turns "close the books" into a ServiceTitan-plus-QuickBooks sequence instead of generic accounting advice.
 
-**Why it's valuable:** Turns “close the books” into concrete ServiceTitan-plus-QuickBooks actions instead of generic accounting advice. This is the page that makes the rest of the workflow pay off.
+**Why it's valuable:** If invoicing and export are the daily habit, this page is why that habit exists. A clean close is the test that earlier pages were followed. It is one of the few official articles written as an accountant's month-end, not a feature tour.
 
-**Who would benefit:** Bookkeepers and accountants who close monthly and need a repeatable checklist.
+**Who would benefit:** Bookkeepers and accountants who close monthly should bookmark it. Office managers who do not close can still use it to see what accounting will ask for.
 
-**Limitations:** Assumes a clean prior period. It will not walk a shop through inherited mess: duplicate customers, old unexported batches, or years of unreconciled inventory. Conversion jobs still need a cleanup plan first.
+**Limitations:** Assumes a clean prior period. It will not unwind duplicate customers, years of unexported batches, or inherited inventory balances. Conversion jobs need a cleanup plan before this checklist works. Pair with "Understand the Financial Dashboard" and "Work in Progress (WIP) report" for project revenue, and with "Inventory and Purchase Orders Home" for the stock side of the close.
 
 ---
 
@@ -196,13 +196,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Financial Controls & Month-End Closing  
 **Tags:** Financial Controls, Intermediate, Official Help Center, Accountant, Owner
 
-**What it covers:**  
+**What it covers:** Explains the Financial Dashboard and the Over/Under Billing view: Earned revenue from work completed versus actual revenue invoiced to the customer. Overbilling is invoicing ahead of percent complete; underbilling is the reverse. The summary bar totals projects, earned vs actual, and over/under amounts.
 
-**Why it's valuable:**  
+**Why it's valuable:** Progress billing and WIP numbers need a place they can be seen together. This dashboard is that place for project work. A shop can invoice on schedule and still be overbilled on the books.
 
-**Who would benefit:**  
+**Who would benefit:** Accountants, controllers, and owners of project-based work. Bookkeepers preparing a month-end journal for over/under billing should open it before they write the entry.
 
-**Limitations:**  
+**Limitations:** It is project-scoped. Standalone service jobs do not belong here. Access is permissioned and the feature may need to be enabled. Pair with "Work in Progress (WIP) report" for the column-level view and with "Applications for Payment & Continuation Sheets" for the billing documents that created the actual revenue.  
 
 ---
 
@@ -212,13 +212,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Financial Controls & Month-End Closing  
 **Tags:** Job Costing, Financial Controls, Advanced, Official Help Center, Accountant, Owner
 
-**What it covers:**  
+**What it covers:** Work in Progress report for project jobs: Percent complete from cost, recognized revenue, billed revenue, committed costs, and over/under billing. It is the percentage-of-completion view used to judge whether invoicing is ahead of or behind earned work.
 
-**Why it's valuable:**  
+**Why it's valuable:** The Financial Dashboard gives the snapshot. This report gives the columns behind that snapshot and is what accountants use for WIP accruals. Together with Applications for Payment, it explains why a project can look profitable on invoices and still need a month-end entry.
 
-**Who would benefit:**  
+**Who would benefit:** Accountants and owners on construction or install projects. Bookkeepers who only close service work can skip it.
 
-**Limitations:**  
+**Limitations:** A project start date is required or the job may not appear. Completed projects drop off after the As of date passes their completion date. Account configuration is required. Pair with "Understand the Financial Dashboard" and with "Applications for Payment & Continuation Sheets." Do not treat it as a residential job-costing substitute; that is "Run job costing reports."  
 
 ---
 
@@ -230,13 +230,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Inventory Management & Procurement  
 **Tags:** Inventory Management, Intermediate, Official Help Center, Bookkeeper, Office Manager, Owner
 
-**What it covers:** Hub for purchasing and inventory: creating purchase orders, receiving, vendor bills, transfers, counts, serialized items, and replenishment. Notes the difference between the Purchasing module and full Inventory.
+**What it covers:** Hub for purchasing and inventory: purchase orders, receiving, vendor bills, transfers between trucks and warehouses, counts, serialized items, and replenishment. It also separates shops that only have Purchasing from shops with full Inventory.
 
-**Why it's valuable:** Job costing and AP only stay honest if parts and POs are recorded correctly. This page fills a category that was empty in Assignment 01 and connects field material use to the ledger.
+**Why it's valuable:** Job costing and AP are fiction if parts never hit a PO or a receipt. This page is the cost feed for the job costing report and the inventory piece of a QuickBooks close. Assignment 01 had this category empty; this source fills it with the official starting point.
 
-**Who would benefit:** Office managers and bookkeepers who handle vendor bills, truck stock, and job material cost. Owners who want to know why job profit does not match the invoice.
+**Who would benefit:** Office managers and bookkeepers who enter vendor bills or truck stock, and owners who cannot match job profit to the invoice.
 
-**Limitations:** Module availability varies by account. Some shops only have Purchasing, not full Inventory. Three-way matching and vendor-catalog details live on child pages, not on this hub.
+**Limitations:** Module mix varies by account. Three-way matching, vendor catalogs, and mobile receiving live on child pages. Inventory transactions still have to be batched and exported if the shop tracks stock in accounting. Pair with "Run job costing reports" and with "Batch, post, and export transactions."
 
 ---
 
@@ -248,13 +248,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Basic Troubleshooting and FAQs  
 **Tags:** Troubleshooting, Accounting Integration, Intermediate, Troubleshooting Guide, Bookkeeper, Financial Integrations Specialist
 
-**What it covers:** Common QuickBooks Desktop Web Connector failures during batch export: crashes, connection color mismatches, “could not connect to QuickBooks,” and the usual install, user, and certificate fixes.
+**What it covers:** Common QuickBooks Desktop Web Connector failures during batch export: The connector crashes, the connection is green in one place and red in another, QuickBooks is not open under the same Windows user, old certificates, and "could not connect to QuickBooks." Fixes start with version, install location, single-user mode, and re-creating the connection.
 
-**Why it's valuable:** This is the public page people need when the happy-path integration guide is useless. It is also the closest official match to the batching, posting, and export errors that show up in support work.
+**Why it's valuable:** This is the public page people need when "Accounting Integrations Home" and "Batch, post, and export transactions" are useless. A large share of Desktop tickets die here, not in GL mapping.
 
-**Who would benefit:** Bookkeepers who export from the office and support staff diagnosing a red connector or a batch that will not leave ServiceTitan.
+**Who would benefit:** Bookkeepers who export from the office machine and support staff looking at a red connector.
 
-**Limitations:** QuickBooks Desktop only. QBO and Intacct use different error paths. Some fixes still end with “contact Support,” and the connector must run on the same machine as the company file.
+**Limitations:** Desktop only. QBO Touchless and Intacct do not use this connector. Some steps still end at "contact Support." The connector, QuickBooks, and the company file must be on the same machine; remote-control tools are not a supported workaround. Pair with "Batch, post, and export transactions" and with "Batch will not post or accept invoices" when the problem is the batch rather than the connector.
 
 ---
 
@@ -264,13 +264,13 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Basic Troubleshooting and FAQs  
 **Tags:** Troubleshooting, Accounting Integration, Intermediate, Troubleshooting Guide, Bookkeeper, Financial Integrations Specialist
 
-**What it covers:**  
+**What it covers:** Error-by-error list for ServiceTitan Touchless Integration to QuickBooks Online: Permissions in QBO, a closing date that blocks older transactions, business units missing from payments or invoices, and chart-of-accounts names that do not match, including parent/subaccount format.
 
-**Why it's valuable:**  
+**Why it's valuable:** QBO shops do not have a Web Connector. Without this page the collection would treat every export failure as a Desktop problem. Touchless also changes the workflow: Journal entries can leave ServiceTitan without a manual batch, so the failure modes look different.
 
-**Who would benefit:**  
+**Who would benefit:** Bookkeepers on QBO, admins who own the QBO connection, and specialists who have already ruled out a Desktop connector.
 
-**Limitations:**  
+**Limitations:** QBO Touchless only, not Intacct and not document-based Desktop export. Some fixes require an exact dummy account name in QBO or a reconnect of business units. Mapping errors that "succeed" and still drop fields will not all appear here; the r/Bookkeeping thread is where those show up. Pair with "Accounting Integrations Home" and with "ServiceTitan push into QBO - What issues have you seen?"  
 
 ---
 
@@ -280,17 +280,17 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 **Category:** Basic Troubleshooting and FAQs  
 **Tags:** Troubleshooting, Invoicing, Intermediate, Troubleshooting Guide, Bookkeeper, Office Manager
 
-**What it covers:**  
+**What it covers:** Troubleshooting page for a batch that will not post or will not accept invoices. Four usual causes: Material or equipment with no technician, an empty batch that fails silently, an invoice with no date because the job is not fully closed, and a batch that was already exported so it cannot take new work.
 
-**Why it's valuable:**  
+**Why it's valuable:** This is the "why is my invoice stuck" page that invoice statuses cannot be posted. Status tells you the lock; this page tells you the four locks that happen before export even starts.
 
-**Who would benefit:**  
+**Who would benefit:** Office staff who add invoices to a batch, and bookkeepers who cannot post.
 
-**Limitations:**  
+**Limitations:** It does not fix connector or QBO mapping errors. After a successful export, create a new batch rather than forcing more invoices into the old one. Pair with "Understand invoice statuses" and with "Batch, post, and export transactions." If those four checks pass and export still fails, move to the Web Connector or QBO Touchless page.  
 
 ---
 
-## Course process (not part of the 16)
+## Course Process (not part of the 16)
 
 - [Exercise 01: Source Discovery](exercise-01-source-discovery.md)
 - [Assignment 01: Collection Plan](assignment-01-collection-plan.md)
