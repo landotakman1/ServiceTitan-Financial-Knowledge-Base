@@ -22,7 +22,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ## 1. Invoicing Workflows
 
-### 1. [Overview of the Invoicing Process](https://help.servicetitan.com/docs/overview-of-the-invoicing-process)
+### [Overview of the Invoicing Process](https://help.servicetitan.com/docs/overview-of-the-invoicing-process)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/overview-of-the-invoicing-process](https://help.servicetitan.com/docs/overview-of-the-invoicing-process)  
 **Category:** Invoicing Workflows  
@@ -38,7 +38,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ---
 
-### 2. [Understand invoice statuses](https://help.servicetitan.com/docs/understand-invoice-statuses)
+### [Understand invoice statuses](https://help.servicetitan.com/docs/understand-invoice-statuses)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/understand-invoice-statuses](https://help.servicetitan.com/docs/understand-invoice-statuses)  
 **Category:** Invoicing Workflows  
@@ -56,7 +56,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ## 2. Payment Processing & Collections
 
-### 3. [Payments Home](https://help.servicetitan.com/docs/payments-overview)
+### [Payments Home](https://help.servicetitan.com/docs/payments-overview)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/payments-overview](https://help.servicetitan.com/docs/payments-overview)  
 **Category:** Payment Processing & Collections  
@@ -72,7 +72,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ---
 
-### 4. [Applications for Payment & Continuation Sheets](https://help.servicetitan.com/docs/complete-application-for-payment-and-continuation-sheet)
+### [Applications for Payment & Continuation Sheets](https://help.servicetitan.com/docs/complete-application-for-payment-and-continuation-sheet)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/complete-application-for-payment-and-continuation-sheet](https://help.servicetitan.com/docs/complete-application-for-payment-and-continuation-sheet)  
 **Category:** Payment Processing & Collections  
@@ -90,7 +90,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ## 3. Job Costing & Profitability Analysis
 
-### 5. [Run job costing reports](https://help.servicetitan.com/docs/run-job-costing-reports)
+### [Run job costing reports](https://help.servicetitan.com/docs/run-job-costing-reports)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/run-job-costing-reports](https://help.servicetitan.com/docs/run-job-costing-reports)  
 **Category:** Job Costing & Profitability Analysis  
@@ -106,7 +106,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ---
 
-### 6. [Profit Protection for Contractors in 2025](https://www.servicetitan.com/blog/webinar-recap-profit-protection)
+### [Profit Protection for Contractors in 2025](https://www.servicetitan.com/blog/webinar-recap-profit-protection)
 **Creator:** ServiceTitan (blog / webinar recap)  
 **URL:** [https://www.servicetitan.com/blog/webinar-recap-profit-protection](https://www.servicetitan.com/blog/webinar-recap-profit-protection)  
 **Category:** Job Costing & Profitability Analysis  
@@ -124,7 +124,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ## 4. Accounting Integrations & Reconciliation
 
-### 7. [Accounting Integrations Home](https://help.servicetitan.com/docs/accounting-integrations-overview)
+### [Accounting Integrations Home](https://help.servicetitan.com/docs/accounting-integrations-overview)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/accounting-integrations-overview](https://help.servicetitan.com/docs/accounting-integrations-overview)  
 **Category:** Accounting Integrations & Reconciliation  
@@ -140,7 +140,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ---
 
-### 8. [Batch, post, and export transactions](https://help.servicetitan.com/docs/batch-post-and-export-transactions)
+### [Batch, post, and export transactions](https://help.servicetitan.com/docs/batch-post-and-export-transactions)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/batch-post-and-export-transactions](https://help.servicetitan.com/docs/batch-post-and-export-transactions)  
 **Category:** Accounting Integrations & Reconciliation  
@@ -156,7 +156,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ---
 
-### 11. [ServiceTitan push into QBO – What issues have you seen?](https://www.reddit.com/r/Bookkeeping/comments/1uqux5a/servicetitan_push_into_qbo_what_issues_have_you/)
+### [ServiceTitan push into QBO – What issues have you seen?](https://www.reddit.com/r/Bookkeeping/comments/1uqux5a/servicetitan_push_into_qbo_what_issues_have_you/)
 **Creator:** r/Bookkeeping community thread  
 **URL:** [https://www.reddit.com/r/Bookkeeping/comments/1uqux5a/servicetitan_push_into_qbo_what_issues_have_you/](https://www.reddit.com/r/Bookkeeping/comments/1uqux5a/servicetitan_push_into_qbo_what_issues_have_you/)  
 **Category:** Accounting Integrations & Reconciliation  
@@ -174,7 +174,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ## 5. Financial Controls & Month-End Closing
 
-### 12. [Best Practices on Closing the Books with QuickBooks](https://help.servicetitan.com/docs/best-practice-on-closing-the-books-with-quickbooks)
+### [Best Practices on Closing the Books with QuickBooks](https://help.servicetitan.com/docs/best-practice-on-closing-the-books-with-quickbooks)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/best-practice-on-closing-the-books-with-quickbooks](https://help.servicetitan.com/docs/best-practice-on-closing-the-books-with-quickbooks)  
 **Category:** Financial Controls & Month-End Closing  
@@ -190,7 +190,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ---
 
-### 13. [Understand the Financial Dashboard](https://help.servicetitan.com/docs/understand-the-financial-dashboard)
+### [Understand the Financial Dashboard](https://help.servicetitan.com/docs/understand-the-financial-dashboard)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/understand-the-financial-dashboard](https://help.servicetitan.com/docs/understand-the-financial-dashboard)  
 **Category:** Financial Controls & Month-End Closing  
@@ -206,7 +206,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ---
 
-### 15. [Work in Progress (WIP) report](https://help.servicetitan.com/docs/work-in-progress-wip-report)
+### [Work in Progress (WIP) report](https://help.servicetitan.com/docs/work-in-progress-wip-report)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/work-in-progress-wip-report](https://help.servicetitan.com/docs/work-in-progress-wip-report)  
 **Category:** Financial Controls & Month-End Closing  
@@ -224,7 +224,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ## 6. Inventory Management & Procurement
 
-### 14. [Inventory and Purchase Orders Home](https://help.servicetitan.com/docs/inventory-and-purchase-orders)
+### [Inventory and Purchase Orders Home](https://help.servicetitan.com/docs/inventory-and-purchase-orders)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/inventory-and-purchase-orders](https://help.servicetitan.com/docs/inventory-and-purchase-orders)  
 **Category:** Inventory Management & Procurement  
@@ -242,7 +242,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ## 7. Basic Troubleshooting and FAQs
 
-### 9. [Web Connector Troubleshooting Guide](https://help.servicetitan.com/docs/web-connector-troubleshooting-guide)
+### [Web Connector Troubleshooting Guide](https://help.servicetitan.com/docs/web-connector-troubleshooting-guide)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/web-connector-troubleshooting-guide](https://help.servicetitan.com/docs/web-connector-troubleshooting-guide)  
 **Category:** Basic Troubleshooting and FAQs  
@@ -258,7 +258,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ---
 
-### 10. [Resolve Touchless Integration export errors (QBO)](https://help.servicetitan.com/docs/resolve-touchless-integration-export-errors-qbo)
+### [Resolve Touchless Integration export errors (QBO)](https://help.servicetitan.com/docs/resolve-touchless-integration-export-errors-qbo)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/resolve-touchless-integration-export-errors-qbo](https://help.servicetitan.com/docs/resolve-touchless-integration-export-errors-qbo)  
 **Category:** Basic Troubleshooting and FAQs  
@@ -274,7 +274,7 @@ Public sources for ServiceTitan financial workflows in trade service and constru
 
 ---
 
-### 16. [Batch will not post or accept invoices](https://help.servicetitan.com/docs/why-is-my-batch-failing-to-post)
+### [Batch will not post or accept invoices](https://help.servicetitan.com/docs/why-is-my-batch-failing-to-post)
 **Creator:** ServiceTitan Help Center  
 **URL:** [https://help.servicetitan.com/docs/why-is-my-batch-failing-to-post](https://help.servicetitan.com/docs/why-is-my-batch-failing-to-post)  
 **Category:** Basic Troubleshooting and FAQs  
