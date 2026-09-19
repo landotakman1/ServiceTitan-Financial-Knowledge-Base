@@ -23,4 +23,5 @@ When grouped together, these sources are one chain, not sixteen separate feature
 - [Exercise 01: Source Discovery](sources/exercise-01-source-discovery.md) - discovery methods and preliminary source list
 - [Assignment 01: Collection Plan + Initial Sources](sources/assignment-01-collection-plan.md) - topic, structure, first six sources, tool choice
 - [Exercise 02: Annotation Practice](sources/exercise-02-annotation-practice.md) - six practice annotations
+- [Assignment 02: Synthesis Blueprint](sources/assignment-02-synthesis-blueprint.md) - Audience, format, and outline for Project 02
 - [About](about.md)
