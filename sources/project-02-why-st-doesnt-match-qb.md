@@ -27,13 +27,32 @@ If the header still says Pending or Posted, stay on the happy path below. If it 
 
 ## 2. Before you batch
 
-*Payments, job complete, credits, and a short note on progress billing.*
+Do not put an invoice in a batch just because the job feels finished.
+
+The job has to be complete enough for ServiceTitan to give the invoice a date. If the job is still open, that invoice often never appears on the accounting screen. That is not a QuickBooks problem yet. It is a ServiceTitan record that is not ready to leave.
+
+Payments belong in the same pass. [Payments Home](https://help.servicetitan.com/docs/payments-overview) is the official map for card, ACH, check, credits, refunds, and voids from the office or the field. The part that matters for matching QuickBooks is timing. Apply the payment, unapply a credit, or record the refund *before* the invoice is exported. After export, ServiceTitan generally will not let you unapply that payment on the original record. The refund that “never showed up in QuickBooks” usually left the building in the wrong batch, or never left at all.
+
+If you bill commercial or install work by percent complete, stop here and use [Applications for Payment and Continuation Sheets](https://help.servicetitan.com/docs/complete-application-for-payment-and-continuation-sheet) instead of forcing an AIA pay app through a residential invoice habit. Retainage and stored materials will not export cleanly if you invent that process on a regular invoice. Everyone else can skip this paragraph.
+
+When the job is complete, the invoice date is there, and the payment or credit is the one you actually want in QuickBooks, go to Section 3. Refunds and adjustments can still be performed after export but it is much easier to avoid this if at all possible.
 
 ---
 
 ## 3. Batch, post, export
 
-*The daily move. Desktop vs Online so you open the right FAQ.*
+This is the daily move that turns Section 1 from vocabulary into a habit.
+
+[Batch, post, and export transactions](https://help.servicetitan.com/docs/batch-post-and-export-transactions) is the official sequence: build a batch, review what is in it, post it, then export it to QuickBooks or Intacct. A batch is not only invoices. Payments, vendor bills, inventory transfers, adjustments, and returns can ride along. Best practice in that article is daily, with office staff building the batch and accounting posting it.
+
+[Accounting Integrations Home](https://help.servicetitan.com/docs/accounting-integrations-overview) is where you confirm *which* QuickBooks you have. Desktop, Online, Intacct, and CSV are not the same project. If you are on QuickBooks Desktop, export runs through the Web Connector on the office machine or, in some cases, through a VPN or remote desktop connection. If you are on QuickBooks Online with Touchless Integration, the connector is not necessary. Open the FAQ that matches your product. Do not follow Desktop certificate steps on a QBO setup.
+
+Two rules from these pages that are critical to remember:
+
+- Invoices on unfinished jobs do not show up to batch as revenue is not recognized until work is performed.
+- After export, you do not edit that batch. You verify the export in QuickBooks, and you fix mistakes with an adjustment invoice.
+
+If the batch posts and export succeeds, skip to Section 5. If the batch will not post, the connector is red, or QBO rejects the export, go to Section 4.
 
 ---
 
@@ -59,6 +78,10 @@ If the header still says Pending or Posted, stay on the happy path below. If it 
 
 - [Overview of the Invoicing Process](https://help.servicetitan.com/docs/overview-of-the-invoicing-process) - ServiceTitan Help Center  
 - [Understand invoice statuses](https://help.servicetitan.com/docs/understand-invoice-statuses) - ServiceTitan Help Center  
+- [Payments Home](https://help.servicetitan.com/docs/payments-overview) - ServiceTitan Help Center  
+- [Applications for Payment and Continuation Sheets](https://help.servicetitan.com/docs/complete-application-for-payment-and-continuation-sheet) - ServiceTitan Help Center  
+- [Batch, post, and export transactions](https://help.servicetitan.com/docs/batch-post-and-export-transactions) - ServiceTitan Help Center  
+- [Accounting Integrations Home](https://help.servicetitan.com/docs/accounting-integrations-overview) - ServiceTitan Help Center  
 
 *More sources will be added*
 
