@@ -58,19 +58,70 @@ If the batch posts and export succeeds, skip to Section 5. If the batch will not
 
 ## 4. If it will not leave ServiceTitan
 
-*Jump links: batch will not post - Web Connector - QBO Touchless errors - deposits and refunds don’t match.*
+Jump to the failure that matches the screen:
+
+- [Why ServiceTitan Doesn’t Match QuickBooks - Start Here](#why-servicetitan-doesnt-match-quickbooks---start-here)
+  - [1. What “in the books” means](#1-what-in-the-books-means)
+  - [2. Before you batch](#2-before-you-batch)
+  - [3. Batch, post, export](#3-batch-post-export)
+  - [4. If it will not leave ServiceTitan](#4-if-it-will-not-leave-servicetitan)
+    - [The batch will not post](#the-batch-will-not-post)
+    - [Web Connector is red or crashing](#web-connector-is-red-or-crashing)
+    - [QBO Touchless rejects the export](#qbo-touchless-rejects-the-export)
+    - [Deposits and refunds do not match the bank](#deposits-and-refunds-do-not-match-the-bank)
+  - [5. After export: close the period](#5-after-export-close-the-period)
+  - [6. If profit still looks wrong](#6-if-profit-still-looks-wrong)
+  - [Sources used](#sources-used)
+
+Official Help Center pages describe the intended export. They understate how often the break is one of these four issues. Use the official page as the checklist. Use the forum thread only as a symptom list.
+
+### The batch will not post
+
+[Batch will not post or accept invoices](https://help.servicetitan.com/docs/why-is-my-batch-failing-to-post) names four usual causes: material or equipment with no technician assigned, an empty batch that fails with no error, an invoice with no date because the job is not fully closed, and a batch that was already exported so it cannot take new work.
+
+Invoice statuses tell you whether a record is Pending, Posted, or Exported. They do not tell you *why* a batch refuses the invoice. This page does: missing technician, empty batch, no invoice date, or batch that already exported. After a successful export, create a new batch. Do not force more invoices into the old one.
+
+### Web Connector is red or crashing
+
+**QuickBooks Desktop only** - [Web Connector Troubleshooting Guide](https://help.servicetitan.com/docs/web-connector-troubleshooting-guide) covers crashes, green-in-one-place / red-in-another, “could not connect to QuickBooks,” old certificates, and the connector running under a different Windows user than QuickBooks.
+
+The connector, QuickBooks, and the company file need to be on the same machine (or the same remote session you already use). QBO shops should skip this section. Some steps still end at Support. If the four batch-will-not-post checks passed and Desktop still will not export, this is the page.
+
+### QBO Touchless rejects the export
+
+QuickBooks Online with Touchless Integration does not use the connector. [Resolve Touchless Integration export errors (QBO)](https://help.servicetitan.com/docs/resolve-touchless-integration-export-errors-qbo) is the error list: QBO permissions, a closing date that blocks older transactions, business units missing from a payment or invoice, and account names that do not match, including parent/subaccount format.
+
+Do not run Desktop certificate steps here. If the export “succeeds” and fields are still missing in QBO, this page may be silent. That is the next item.
+
+### Deposits and refunds do not match the bank
+
+The [r/Bookkeeping thread on ServiceTitan pushing into QBO](https://www.reddit.com/r/Bookkeeping/comments/1uqux5a/servicetitan_push_into_qbo_what_issues_have_you/) is not a procedure. It is what bookkeepers say when official docs are not enough: deposits on a ServiceTitan report that never hit the bank, bank deposits missing from ServiceTitan, auto-batched payments, and refunds that do not ride with the deposit unless someone unposts and rebuilds it before export.
+
+Treat it as a symptom list. Confirm your shop's export type (document vs journal / Touchless), then go back to [Payments Home](https://help.servicetitan.com/docs/payments-overview) or the QBO error page for the actual fix. This thread and the Help Center agree on one hard rule: **an exported batch cannot be edited in ServiceTitan**.
 
 ---
 
 ## 5. After export: close the period
 
-*Month-end checklist. Project shops: earned vs billed.*
+Export working is not the same as the period being closed.
+
+[Best Practices on Closing the Books with QuickBooks](https://help.servicetitan.com/docs/best-practice-on-closing-the-books-with-quickbooks) is the month-end sequence: AR, AP, bank accounts, inventory, then a closing-date lock so posted periods stop changing. If daily batching is the habit, this page is why that habit exists. It assumes a reasonably clean prior period. It will not unwind years of unexported batches by itself.
+
+Project and construction shops need one extra look at earned vs billed. [Understand the Financial Dashboard](https://help.servicetitan.com/docs/understand-the-financial-dashboard) shows overbilling (invoiced ahead of percent complete) and underbilling (the reverse). The [Work in Progress (WIP) report](https://help.servicetitan.com/docs/work-in-progress-wip-report) is the column-level version of that same gap. A project can look fine on invoices and still need a month-end entry. Residential service shops that never use projects can skip those two pages.
+
+When the close checklist is done and QuickBooks still does not match *job profit*, that is no longer an export problem. Go to Section 6.
 
 ---
 
 ## 6. If profit still looks wrong
 
-*Inventory and job costing after the books already move.*
+If invoices exported and the bank tied out, but job profit still looks impossible, the leak is usually cost, not export.
+
+[Inventory and Purchase Orders Home](https://help.servicetitan.com/docs/inventory-and-purchase-orders) is the cost feed: POs, receiving, vendor bills, truck stock, & counts. Job costing cannot be honest if parts never hit a PO or a receipt. Some shops only have Purchasing, not full Inventory. Either way, those transactions still need to batch and export if you track stock in accounting.
+
+[Run job costing reports](https://help.servicetitan.com/docs/run-job-costing-reports) is where material, equipment, PO, payroll, and labor burden get compared to revenue. Two traps the official page flags: counting payroll and burden twice, and invoice items that are not mapped to income GLs so revenue looks low even when the invoice total is right.
+
+If this section is where you live every month, the books-matching problem is solved and the pricing problem is not. That is a different job than this page covers.
 
 ---
 
@@ -82,8 +133,15 @@ If the batch posts and export succeeds, skip to Section 5. If the batch will not
 - [Applications for Payment and Continuation Sheets](https://help.servicetitan.com/docs/complete-application-for-payment-and-continuation-sheet) - ServiceTitan Help Center  
 - [Batch, post, and export transactions](https://help.servicetitan.com/docs/batch-post-and-export-transactions) - ServiceTitan Help Center  
 - [Accounting Integrations Home](https://help.servicetitan.com/docs/accounting-integrations-overview) - ServiceTitan Help Center  
-
-*More sources will be added*
+- [Batch will not post or accept invoices](https://help.servicetitan.com/docs/why-is-my-batch-failing-to-post) - ServiceTitan Help Center  
+- [Web Connector Troubleshooting Guide](https://help.servicetitan.com/docs/web-connector-troubleshooting-guide) - ServiceTitan Help Center  
+- [Resolve Touchless Integration export errors (QBO)](https://help.servicetitan.com/docs/resolve-touchless-integration-export-errors-qbo) - ServiceTitan Help Center  
+- [ServiceTitan push into QBO](https://www.reddit.com/r/Bookkeeping/comments/1uqux5a/servicetitan_push_into_qbo_what_issues_have_you/) - r/Bookkeeping  
+- [Best Practices on Closing the Books with QuickBooks](https://help.servicetitan.com/docs/best-practice-on-closing-the-books-with-quickbooks) - ServiceTitan Help Center  
+- [Understand the Financial Dashboard](https://help.servicetitan.com/docs/understand-the-financial-dashboard) - ServiceTitan Help Center  
+- [Work in Progress (WIP) report](https://help.servicetitan.com/docs/work-in-progress-wip-report) - ServiceTitan Help Center  
+- [Inventory and Purchase Orders Home](https://help.servicetitan.com/docs/inventory-and-purchase-orders) - ServiceTitan Help Center  
+- [Run job costing reports](https://help.servicetitan.com/docs/run-job-costing-reports) - ServiceTitan Help Center  
 
 ---
 
