@@ -24,6 +24,6 @@ When grouped together, these sources are one chain, not sixteen separate feature
 - [Assignment 01: Collection Plan + Initial Sources](sources/assignment-01-collection-plan.md) - topic, structure, first six sources, tool choice
 - [Exercise 02: Annotation Practice](sources/exercise-02-annotation-practice.md) - six practice annotations
 - [Assignment 02: Synthesis Blueprint](sources/assignment-02-synthesis-blueprint.md) - Audience, format, and outline for Project 02
-- [Project 02 draft: Why ServiceTitan Doesn't Match QuickBooks](sources/project-02-why-st-doesnt-match-qb.md) - Draft for Project 02
+- [Project 02: Why ServiceTitan Doesn't Match QuickBooks](sources/project-02-why-st-doesnt-match-qb.md) - Project 02 full draft
 - [Exercise 03: Draft Review](sources/exercise-03-draft-review.md) - self-review and reflection for Project 02 draft
 - [About](about.md)
