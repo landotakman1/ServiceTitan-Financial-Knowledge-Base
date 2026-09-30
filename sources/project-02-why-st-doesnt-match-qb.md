@@ -1,7 +1,8 @@
+<!-- TOC_DISABLED -->
 # Why ServiceTitan Doesn’t Match QuickBooks - Start Here
 
-**Draft for CMPA 4301 Project 02**  
-**Landon Forney** - September 21, 2026
+**Landon Forney**  
+CMPA 4301 - Project 02 Synthesis Product - September 2026
 
 This page is for the office manager or bookkeeper who already invoices in ServiceTitan and needs the totals to match QuickBooks at period close. It is not a tour of the product. It is a path through official Help Center pages in the order the work happens, plus the four most common failures that stop an export.
 
@@ -17,7 +18,7 @@ A completed job is not a QuickBooks transaction.
 
 ServiceTitan’s [Overview of the Invoicing Process](https://help.servicetitan.com/docs/overview-of-the-invoicing-process) walks through the lifecycle from a finished job to an invoice that can be batched, posted, and exported. Those three words are the whole problem. Until export happens, the invoice still only lives in ServiceTitan. Your customer may have a PDF. Your technicians may be paid. QuickBooks still does not have the financial information.
 
-[Understand invoice statuses](https://help.servicetitan.com/docs/understand-invoice-statuses) is the same idea on the invoice header in ST. **Pending** means the invoice is still yours to edit. **Posted** means it is in a batch waiting to leave; you can still unpost and fix it if necessary. **Exported** means it has gone to the accounting system. After that, ServiceTitan will not let you edit those transactions because information flows from ST to QB, not the other way around. The documented fix is an adjustment invoice, not a rewrite of the original.
+[Understand invoice statuses](https://help.servicetitan.com/docs/understand-invoice-statuses) is the same idea on the invoice header in ST. **Pending** means the invoice is still yours to edit. **Posted** means it is in a batch waiting to leave; you can still unpost and fix it if necessary. **Exported** means it has gone to the accounting system. After that, ServiceTitan will not let you edit those transactions because information flows from ST to QB, not the other way around. The documented fix is an adjustment invoice, not a rewrite of the original. Once the original invoice is exported, use ServiceTitan's [Create an Adjustment Invoice](https://help.servicetitan.com/docs/create-an-adjustment-invoice) article. Add the adjustment to a new batch and export that. Do not try to reopen the old batch.
 
 That lock is why close week feels sudden. The mismatch did not start at reconciliation. It started when an invoice was treated as “done” at job complete, or when a batch was exported with the wrong payment, refund, or job still open. Official pages describe that intended path. They do not always say the next sentence out loud: once export status says Exported, you are no longer correcting the same record.
 
@@ -45,7 +46,7 @@ This is the daily move that turns Section 1 from vocabulary into a habit.
 
 [Batch, post, and export transactions](https://help.servicetitan.com/docs/batch-post-and-export-transactions) is the official sequence: build a batch, review what is in it, post it, then export it to QuickBooks or Intacct. A batch is not only invoices. Payments, vendor bills, inventory transfers, adjustments, and returns can ride along. Best practice in that article is daily, with office staff building the batch and accounting posting it.
 
-[Accounting Integrations Home](https://help.servicetitan.com/docs/accounting-integrations-overview) is where you confirm *which* QuickBooks you have. Desktop, Online, Intacct, and CSV are not the same project. If you are on QuickBooks Desktop, export runs through the Web Connector on the office machine or, in some cases, through a VPN or remote desktop connection. If you are on QuickBooks Online with Touchless Integration, the connector is not necessary. Open the FAQ that matches your product. Do not follow Desktop certificate steps on a QBO setup.
+[Accounting Integrations Home](https://help.servicetitan.com/docs/accounting-integrations-overview) is where you confirm *which* QuickBooks you have. Desktop, Online, Intacct, and CSV are not the same project. Intacct uses the same batch habit and a different export menu. This page does not cover Intacct specific error messages. If you are on QuickBooks Desktop, export runs through the Web Connector on the office machine or, in some cases, through a VPN or remote desktop connection. If you are on QuickBooks Online with Touchless Integration, the connector is not necessary. Open the FAQ that matches your product. Do not follow Desktop certificate steps on a QBO setup.
 
 Two rules from these pages that are critical to remember:
 
@@ -117,7 +118,7 @@ When the close checklist is done and QuickBooks still does not match *job profit
 
 If invoices exported and the bank tied out, but job profit still looks impossible, the leak is usually cost, not export.
 
-[Inventory and Purchase Orders Home](https://help.servicetitan.com/docs/inventory-and-purchase-orders) is the cost feed: POs, receiving, vendor bills, truck stock, & counts. Job costing cannot be honest if parts never hit a PO or a receipt. Some shops only have Purchasing, not full Inventory. Either way, those transactions still need to batch and export if you track stock in accounting.
+[Inventory and Purchase Orders Home](https://help.servicetitan.com/docs/inventory-and-purchase-orders) is the cost feed: POs, receiving, vendor bills, truck stock, and counts. Job costing cannot be honest if parts never hit a PO or a receipt. Some shops only have Purchasing, not full Inventory. Either way, those transactions still need to batch and export if you track stock in accounting.
 
 [Run job costing reports](https://help.servicetitan.com/docs/run-job-costing-reports) is where material, equipment, PO, payroll, and labor burden get compared to revenue. Two traps the official page flags: counting payroll and burden twice, and invoice items that are not mapped to income GLs so revenue looks low even when the invoice total is right.
 
@@ -141,7 +142,8 @@ If this section is where you live every month, the books-matching problem is sol
 - [Understand the Financial Dashboard](https://help.servicetitan.com/docs/understand-the-financial-dashboard) - ServiceTitan Help Center  
 - [Work in Progress (WIP) report](https://help.servicetitan.com/docs/work-in-progress-wip-report) - ServiceTitan Help Center  
 - [Inventory and Purchase Orders Home](https://help.servicetitan.com/docs/inventory-and-purchase-orders) - ServiceTitan Help Center  
-- [Run job costing reports](https://help.servicetitan.com/docs/run-job-costing-reports) - ServiceTitan Help Center  
+- [Run job costing reports](https://help.servicetitan.com/docs/run-job-costing-reports) - ServiceTitan Help Center
+- [Add an Adjustment Invoice](https://help.servicetitan.com/docs/create-an-adjustment-invoice) - ServiceTitan Help Center
 
 ---
 
